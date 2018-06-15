@@ -1,19 +1,254 @@
-<html>
-    <head>
-        <title>Crousel Bootstrap</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Favorite Recipes</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+           data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="brand1"href="#">My Favorite Recipes</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="link-collapse-1" href="#smoo">Smoothies</a></li>
+            <li><a id="link-collapse-2" href="#tir">Tiramisu</a></li>
+            <li><a id="link-collapse-3" href="#choco">Chocolate Cakes</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
 
-</nav>
 
 
+    <!--carousel-->
+    <div class="container">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="https://theflexitarian.co.uk/wp-content/uploads/2017/11/10-Essential-Pasta-Sauce-Recipes-v80-800x400.jpg"
+             alt="first"width=100%>
+          </div>
+          <div class="item">
+            <img src="https://theflexitarian.co.uk/wp-content/uploads/2016/07/Leftover-Rice-recipes-v2-800x400.jpg" alt="second"width=100%>
+          </div>
+          <div class="item">
+            <img src="https://theflexitarian.co.uk/wp-content/uploads/2015/03/How-to-Make-Soup-Without-a-Recipe-800x400.jpg" alt="third"
+            width=100%>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
 
+  
 
+    <!--content-->
+    <div class="container box1"id="smoo">
+      <div class="row">
+        <div class="col-lg-12 text-center padding2 margin1 border1">
+          <h2>Smoothies</h2>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <img class="img-responsive center-block img-rounded thumbnail"
+          src="https://cdn.jamieoliver.com/recipe-database/oldImages/430_575/1104_1_1436891354.jpg" alt="Smoothies">
+        </div>
+        <div class="col-xs-12 col-sm-6 padding1">
+            <p>4 Quick and delicious smoothie recipes that my kids love! I am going to share the
+               recipe for the green smoothie below, for the other smoothie recipes please click 
+              <a href="https://www.jamieoliver.com/recipes/fruit-recipes/super-smoothies/"> here</a>
+            </p>
+            <h2>Ingredients</h2>
+            <ul> 
+              <li>1 banana</li>
+              <li>200 g baby spinach</li>
+              <li>250 ml fresh apple juice</li>
+              <li>1 lime</li>
+            </ul>
+        </div>
+        <div class="col-xs-12">
+            <h3> Method</h3>
+            <ol>
+              <li>	Peel the banana and cut into nice big slices on a chopping board – ideally
+                 you want to use frozen bananas, so try to remember to do this the day before. </li>
+              <li> Put the banana and spinach in a blender and pour in the apple juice.</li>
+              <li>  Cut the lime in half and squeeze all the lime juice into the blender.</li>
+              <li> Secure the lid and blitz until smooth, then serve.</li>
+            </ol>
+        </div>
+      </div>
+    </div>
+    <!--tiramisu-->
+    <div class="container box1"id="tir">
+        <div class="row">
+          <div class="col-lg-12 text-center padding2 margin1 border1">
+            <h2>Tiramisu</h2>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <img class="img-responsive center-block img-rounded thumbnail"
+            src="https://i2.wp.com/kitchenjoyblog.com/kitchenjoyblogcom/wp-content/uploads/2014/10/authentic-Italian-Tiramisu-recipe-302.jpg"
+             alt="Smoothies">
+          </div>
+          <div class="col-xs-12 col-sm-6 padding1">
+              <p>An easy and super delicious recipe for Tiramisu. Don't be scared of the raw eggs,they won't make you sick!
+                 The marsala can be replaced with dark rum, or even be left out completely, it is still delicious without the alcohol.
+              </p>
+              <h3> Ingredients</h3>
+              <ul>
+                <li> 6 egg yolks, at room temperature</li>
+                <li> 4 egg whites</li>
+                <li> 1/2 cup granulated sugar</li>
+                <li> 2 cups (16-ounces) mascarpone</li>
+                <li> 36-48 Savoiardi ladyfingers</li>
+                <li> 1 1/2 cups Italian coffee made in Moka pot, cooled</li>
+                <li> 2 tablespoons Marsala</li>
+                <li> 1/4 cup cocoa powder</li>
+                <li> 2 ounces dark or semi-sweet chocolate, shaved</li>
+              </ul>
+          </div>
+          <div class="col-xs-12">
+              <h3> Method</h3>
+              <ol>
+                <li>Brew coffee and allow to cool to room temperature.</li>
+                <li>In a large bowl, whisk egg yolks and 1/4 cup of sugar until pale, doubled in volume,
+                   and "ribbons" remain for a few seconds when spoon is lifted from the mixture, about 3-4 minutes.</li>
+                <li>Whisk in marscarpone a little bit at a time.</li>
+                <li>In another large bowl, beat egg whites and remaining 1/4 cup sugar until stiff, glossy peaks form.</li>
+                <li>Fold egg whites into mascarpone mixture.</li>
+                <li>Add 2 tablespoons Marsala to the coffee.</li>
+                <li>Dip Savoiardi ladyfingers quickly into the coffee and arrange in a layer in the
+                   bottom of a 9x13-inch pan. Do not "soak" the ladyfingers in the coffee or your Tiramisu will turn out soggy. </li>
+                <li> Spread half of the mascarpone mixture on top of the ladyfingers.</li>
+                <li>Top with another layer of dipped ladyfingers. Spread remaining mascarpone mixture evenly on top of ladyfingers.</li>
+                <li>Refrigerate at least 8 hours before serving. (Overnight works well too.)
+                   This allows the filling to set and the ladyfingers to soften and absorb the coffee.</li>
+                <li>Sprinkle with cocoa powder and chocolate shavings immediately before serving. </li>
+              </ol>
+          </div>
+        </div>
+      </div>
+      <!--choco-->
+      <div class="container box1"id="choco">
+          <div class="row">
+            <div class="col-lg-12 text-center padding2 margin1 border1">
+              <h2>Cholcolate Cake</h2>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="img-responsive center-block img-rounded thumbnail"
+              src="https://cdn.jamieoliver.com/news-and-features/features/wp-content/uploads/sites/2/2016/07/chocolatecake_featured.jpg"
+               alt="Smoothies">
+            </div>
+            <div class="col-xs-12 col-sm-6 padding1">
+                <p>A classic chocolate cake with chocolate buttercream, <strong> The cake </strong> my kids want as their birthday cake!
+                </p>
+                <h3> Ingredients</h3>
+                <ul>
+                  <li> 250g plain flour </li>
+                  <li>125g cocoa powder</li>
+                  <li>2 ½ teaspoons baking powder</li>
+                  <li>1 ¼ teaspoons bicarbonate of soda</li>
+                  <li>425g unsalted butter, at room temperature</li>
+                  <li>350g golden caster sugar</li>
+                  <li>2 large free-range eggs</li>
+                  <li>1 tablespoon good quality vanilla extract</li>
+                  <li>250ml freshly brewed coffee</li>
+                  <li>225ml milk</li>
+                  <li>75g dark chocolate</li>
+                  <li>400g icing sugar</li>
+                  <li>4 tablespoons of milk</li>
+                  <li>100g fresh berries</li>
+                </ul>
+            </div>
+            <div class="col-xs-12">
+                <h3> Method</h3>
+                <ol>
+                  <li> Preheat your oven to 180ºC/350F/gas 4. Grease 2 x 9” sandwich tins and line the bases. </li>
+                  <li>In a bowl, mix together the flour, 75g of the cocoa, the baking pow</li>
+                  <li>Cut 125g of the butter into chunks and place into the bowl of a free
+                     standing mixer with a paddle attachment (alternatively,
+                     you can use an electric hand whisk and a large mixing bowl). Beat for a couple of minutes until creamy.</li>
+                  <li> Add the sugar and beat for a few more minutes until pale. Beat in the eggs, one at a time,
+                     then add ½ a tablespoon of the vanilla; scraping the mixture off the sides and bottom.</li>
+                  <li>Add the dry ingredients to the mixing bowl, along with the freshly brewed coffee and milk,
+                     and mix slowly until it all comes together.</li>
+                  <li>Beat vigorously for a further minute, then divide the batter between the two cake tins.
+                     Place them in the middle of the oven and bake for 35 to 40 minutes, until cooked through.
+                      When they are ready, leave the cakes to cool in their tins for 10 minutes, then transfer
+                       to a wire rack to cool completely.</li>
+                  <li>Cut the remaining butter into chunks and place into the bowl of your free standing mixer
+                     with a paddle attachment (again, you can use an electric hand whisk and a large mixing bowl
+                      instead). Beat on a high speed for 2 minutes until creamy, then sift in the remaining 50g 
+                      of cocoa and half the icing sugar. Add 2 tablespoons of the milk and beat again for 1 minute.</li>
+                  <li>Sift in the remaining icing sugar, and add the remaining milk and ½ a tablespoon of 
+                    vanilla extract, then beat everything on a high speed for a couple of minutes until super smooth.</li>
+                  <li>Use a little buttercream to stick one of the sponges onto your chosen cake stand or board.
+                     Spoon on a third of the buttercream and spread it out to the edges of the cake, then top with the second sponge.</li>
+                  <li> Spoon on most of the remaining buttercream (reserving a few spoonfuls for piping on top) 
+                    and gently spread it over the top of the cake and down the sides, until the entire cake is covered. 
+                    Alternatively, you can use a little less buttercream and keep the edges open.</li>
+                  <li>Decorate with the fresh berries and shavings of quality chocolate over the top, if you like.</li>
+                </ol>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container text-center">
+          <h2>I hope you try them out and enjoy them as much as my family does!</h2>
+        </div>
+        <hr>
 
-    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity = "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+    <!--javascript-->
+    <script>
+        document.getElementById("link-collapse-1").onclick = function() {
+          if(window.innerWidth<768){
+            $('#bs-example-navbar-collapse-1').collapse('toggle');
+          }
+        };
+        document.getElementById("link-collapse-2").onclick = function() {
+          if(window.innerWidth<768){
+            $('#bs-example-navbar-collapse-1').collapse('toggle');
+          }
+        };
+        document.getElementById("link-collapse-3").onclick = function() {
+          if(window.innerWidth<768){
+            $('#bs-example-navbar-collapse-1').collapse('toggle');
+          }
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+  </body>
 </html>

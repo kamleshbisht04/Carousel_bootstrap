@@ -1,0 +1,33 @@
+nav{
+  font-size: 1.2em;
+  padding:0.2em;
+}
+#brand1{
+  font-size: 1.3em;
+  color:white;
+}
+.padding1{
+  padding: 2em;
+}
+.padding2{
+  padding: 0.5em;
+}
+.margin1{
+  margin:0.5em;
+}
+.border1{
+  border:5px solid darkgrey;
+}
+p{
+  font-weight: 500;
+  font-size: 1.2em;
+}
+li{
+  font-size: 1.2em;
+}
+.box1{
+  padding-top: 4em;
+}
+body{
+  padding-top: 5em;
+}
